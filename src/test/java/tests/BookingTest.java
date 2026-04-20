@@ -1,5 +1,7 @@
 package tests;
 
+import java.time.LocalDate;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -15,14 +17,22 @@ public class BookingTest extends BaseTest {
     public void testBookingFlow() {
 
         HomePage home = new HomePage(driver);
+     // 1. Handle the popup first
+     // Destination
+        home.dismissGeniusPopup();
         home.enterDestination("Goa, India");
-        home.selectDates();
+     // 2. GENERATE DYNAMIC DATES (Assignment Requirement)
+        // This ensures your test always looks 10 and 13 days ahead from 'today'
+        LocalDate checkIn = LocalDate.now().plusDays(10);
+        LocalDate checkOut = LocalDate.now().plusDays(13);
+        home.selectDates(checkIn.toString(), checkOut.toString());
         home.clickSearch();
 
         SearchResultsPage results = new SearchResultsPage(driver);
-        results.printHotelListings();
+        
 
         results.applyFilters();
+        results.printHotelListing();
 
         ScreenShotUtils.captureScreenshot(driver, "AfterFilters");
 
@@ -40,5 +50,14 @@ public class BookingTest extends BaseTest {
 
         Assert.assertTrue(details.isReviewVisible(),
                 "Reviews not visible");
+        System.out.println("\n===============================================");
+        System.out.println("          BOOKING.COM AUTOMATION SUMMARY        ");
+        System.out.println("===============================================");
+        System.out.println("  Status:    PASSED ✅");
+        System.out.println("  Location:  Goa, India"); // Update this line!
+        System.out.println("  Dates:     " + checkIn + " to " + checkOut);
+        System.out.println("  Execution: Successful");
+        System.out.println("===============================================\n");
     }
+    
 }

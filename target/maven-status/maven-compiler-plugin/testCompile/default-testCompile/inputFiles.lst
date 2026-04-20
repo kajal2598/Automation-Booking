@@ -1,0 +1,8 @@
+/Users/swapnilagrawal/eclipse-workspace/booking-automaion/src/test/java/base/BaseTest.java
+/Users/swapnilagrawal/eclipse-workspace/booking-automaion/src/test/java/pages/HomePage.java
+/Users/swapnilagrawal/eclipse-workspace/booking-automaion/src/test/java/pages/HotelDetailsPage.java
+/Users/swapnilagrawal/eclipse-workspace/booking-automaion/src/test/java/pages/SearchResultsPage.java
+/Users/swapnilagrawal/eclipse-workspace/booking-automaion/src/test/java/tests/BookingTest.java
+/Users/swapnilagrawal/eclipse-workspace/booking-automaion/src/test/java/utils/DriverFactory.java
+/Users/swapnilagrawal/eclipse-workspace/booking-automaion/src/test/java/utils/ScreenShotUtils.java
+/Users/swapnilagrawal/eclipse-workspace/booking-automaion/src/test/java/utils/WaitUtils.java

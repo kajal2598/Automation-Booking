@@ -1,0 +1,8 @@
+pages/SearchResultsPage.class
+pages/HotelDetailsPage.class
+utils/ScreenShotUtils.class
+pages/HomePage.class
+utils/WaitUtils.class
+base/BaseTest.class
+tests/BookingTest.class
+utils/DriverFactory.class

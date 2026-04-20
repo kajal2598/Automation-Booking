@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class DriverFactory {
     public static WebDriver createDriver() {
-        // This line automatically downloads the correct driver for your Mac (Intel or M1/M2)
+        // This line automatically downloads the correct driver for your Mac 
         WebDriverManager.chromedriver().setup();
         
         ChromeOptions options = new ChromeOptions();
