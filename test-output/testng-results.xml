@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-20T16:27:12 IST" name="Default suite" finished-at="2026-04-20T16:27:48 IST" duration-ms="36113">
+  <suite started-at="2026-04-20T18:56:31 IST" name="Default suite" finished-at="2026-04-20T18:56:56 IST" duration-ms="25147">
     <groups>
     </groups>
-    <test started-at="2026-04-20T16:27:12 IST" name="Default test" finished-at="2026-04-20T16:27:48 IST" duration-ms="36113">
+    <test started-at="2026-04-20T18:56:31 IST" name="Default test" finished-at="2026-04-20T18:56:56 IST" duration-ms="25147">
       <class name="tests.BookingTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.BookingTest@4d5d943d]" started-at="2026-04-20T16:27:12 IST" name="setup" finished-at="2026-04-20T16:27:16 IST" duration-ms="3617" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.BookingTest@34a3d150]" started-at="2026-04-20T18:56:31 IST" name="setup" finished-at="2026-04-20T18:56:35 IST" duration-ms="4567" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testBookingFlow()[pri:0, instance:tests.BookingTest@4d5d943d]" started-at="2026-04-20T16:27:16 IST" name="testBookingFlow" finished-at="2026-04-20T16:27:38 IST" duration-ms="22156" status="PASS">
+        <test-method signature="testBookingFlow()[pri:0, instance:tests.BookingTest@34a3d150]" started-at="2026-04-20T18:56:35 IST" name="testBookingFlow" description="Verify the complete booking flow from search to hotel details validation." finished-at="2026-04-20T18:56:56 IST" duration-ms="20278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBookingFlow -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.BookingTest@4d5d943d]" started-at="2026-04-20T16:27:38 IST" name="tearDown" finished-at="2026-04-20T16:27:48 IST" duration-ms="10304" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.BookingTest@34a3d150]" started-at="2026-04-20T18:56:56 IST" name="tearDown" finished-at="2026-04-20T18:56:56 IST" duration-ms="270" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
